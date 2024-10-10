@@ -74,3 +74,17 @@ promise2.then((res)=>{
 promise.catch((err)=>{
      console.log("Promise is not fulfilled",err);
 })
+
+
+// Promise Chain -> nested than . mean a than inside another than in case if we want that after
+// our first promise second should be executed
+
+
+
+// Async-Await in JS
+
+async function hello(){
+    console.log("Hello world");
+}
+// when we write async key-word with any function it means that the funciton will return a promise and we will not mention
+// any return statement or catch , than or reject , resolve statemnt every thing is done by default.
